@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_deduction_user,hr.deduction.user,model_hr_deduction,base.group_user,1,0,0,0
+access_hr_deduction_officer,hr.deduction.officer,model_hr_deduction,hr.group_hr_user,1,1,1,1
+access_hr_contract_deduction_line_user,hr.contract.deduction.line.user,model_hr_contract_deduction_line,base.group_user,1,0,0,0
+access_hr_contract_deduction_line_officer,hr.contract.deduction.line.officer,model_hr_contract_deduction_line,hr.group_hr_user,1,1,1,1
